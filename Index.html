@@ -1,1 +1,21 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App met Namen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="chat-container">
+        <div id="messages"></div>
+        <form id="chat-form">
+            <input id="message-input" autocomplete="off" placeholder="Typ hier je bericht..." />
+            <button type="submit">Verstuur</button>
+        </form>
+    </div>
 
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
